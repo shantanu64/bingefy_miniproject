@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #eee;
+  padding: 5px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  transition: 200ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #bbb;
+}
+
+.modal-window {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transition: 400ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-window .display {
+  width: 300px;
+  height: 450px;
+  background:black;
+  position: relative;
+}
+
+.modal-window:target {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal-close {
+  color: white;
+  line-height: 50px;
+  font-size: 22px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: -40px;
+  width: 70px;
+  text-decoration: none;
+}
+
+.modal-close:hover {
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .modal-window .display {
+    width: 700px;
+    height: 450px;
+    background:black;
+    position: relative;
+  }
+}

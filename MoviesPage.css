@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-family: 'Roboto';
+}
+
+@media (min-width: 0px) {
+    html {
+        font-family: 'Roboto';
+    }
+    .movie_name {
+        color: white;
+        padding: 10px;
+        font-size: 25px;
+    }
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .parent h3 {
+        color: white;
+    }
+    .friends {
+        background-color: #020D18;
+        width: 250px;
+        border: #020D18 solid 3px;
+        padding: 6px;
+        padding-bottom: 65px;
+        margin: 50px;
+        margin-bottom: 15px;
+        justify-content: space-between;
+        text-align: center;
+    }
+    body {
+        background-color: #020D18;
+    }
+    .movies {
+        height: 400px;
+    }
+    .title {
+        padding: 30px;
+        text-align: center;
+        font-size: 15px;
+        color: white;
+    }
+    .image {
+        width: 100%;
+        height: 100%;
+        border: #020D18 solid;
+        border-radius: 10px;
+    }
+    .friends:hover {
+        box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.75);
+        background-image: url(./slider-bg.jpg);
+        transform: scale(1.3);
+    }
+    .anchor {
+        text-decoration: none;
+    }
+
+    /* FOOTER */
+.footer{
+    color:#9EA999;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    padding: 20px;
+    background-color: #020D18;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    text-align: center;
+    margin-top: 50px;
+    top: 2055%;
+}
+
+.footer_page{
+    color:#9EA999;
+    position: absolute;
+    font-size: 15px;
+    width: 100%;
+    height: 180px;
+    margin: 0;
+    padding: 20px;
+    background-color: #020D18;
+    box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    -webkit-box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    -moz-box-shadow: -2px 6px 18px 3px rgba(0, 0, 0, 0.72);
+    text-align: center;
+    margin-top: 70px;
+}
+
+.footer_row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+.footer_left{
+    color: #D4F045;
+    font-size: 20px;
+    margin: 8px;
+}
+
+.footer_right{
+    margin-top: 8px;
+}
+
+.footer_right h4{
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+}
+
+@media (min-width: 768px) {
+    .friends {
+        width: 200px;
+        height: 290px;
+        border: #020D18 solid 3px;
+        border-radius: 5px;
+        padding: 6px;
+        margin: 2px;
+        padding-bottom: 65px;
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+    }
+    .movies {
+        height: 260px;
+    }
+    .title {
+        padding: 25px;
+        text-align: left;
+        padding-left: 30px;
+        font-size: 17px;
+    }
+
+    .footer{
+        top:670%;
+    }
+}
+
+@media (min-width: 1020px) {
+    .parent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .friends {
+        width: 250px;
+        height: 430px;
+        border: #020D18 solid 3px;
+        border-radius: 5px;
+        padding: 10px;
+        justify-content: space-around;
+        margin-bottom: 0;
+    }
+    .movies {
+        height: 325px;
+    }
+    .title {
+        padding: 25px;
+        text-align: left;
+        padding-left: 65px;
+        padding-top: 50px;
+        font-size: 23px;
+    }
+    
+    .footer{
+        height: 150px;
+        top:535%;
+    }
+
+    .footer_row{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 25px;
+    }
+
+    .footer_left{
+        color: #D4F045;
+        padding-left: 40px;
+        font-size: 25px;
+    }
+
+    .footer_right{
+        margin-top: -8px;
+        margin-right: 25px;
+        
+    }
+
+    .footer_right h2{
+        margin: 7px;
+    }
+}
