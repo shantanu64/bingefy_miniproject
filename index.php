@@ -398,23 +398,9 @@
                 </div>
             </div>
 
-            <hr />
+            <hr /><br><br><br><br><br>
         </div>
     </main>
-
-    <footer class="footer_stick">
-        <div class="footer">
-            <div class="footer_row">
-            <div class="footer_left">
-                <h1>BINGE-FY </h1>
-            </div>
-
-            <div class="footer_right">
-            <h2>Thankyou for visiting us! </h2>
-            <h4>Copyrights reserved by BINGEFY.</h4>
-            </div>
-            </div>
-        </div>
     </footer>
 
 </body>
